@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jockey+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Inter", serif
+}
+.parent_section{
+    width: 1152px;
+    margin: auto;
+}
+.header_nav{
+    text-align: right;
+    margin:30px ;
+}
+
+.header_nav a{
+    text-decoration: none;
+    color:#000000 ;
+    font-weight: 500;
+    font-size: 20px;
+    padding:27px  20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    padding:0px 100px;
+}
+.child_div{
+    width:497px;
+}
+h1{
+    font-size: 44px;
+    margin-bottom: -8px;
+}
+.child_div p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.header_button{
+    background-color: #FF6464;
+    padding:13px 20px ;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
+.main img{
+    height: 243px;
+    height: 243px;
+}
+
+.body1{
+    background-color: #EDF7FA;
+    margin-top: 50px;
+    padding: 40px 100px;
+}
+.main_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.body1 h5{
+    font-size: 22px;
+    font-weight: 400;
+}
+.child1{
+    width: 418px;
+    background-color:#FFFFFF ;
+    height: 295px;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+.body2 h5{
+    font-size:22px ;
+    color: #21243D;
+    margin-left: 100px;
+}
+.div1{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.child_div1 img{
+    height: 180px; 
+    width:246px ;
+    margin-right: 20px;
+}
+.child_div2 h3{
+    font-size: 30px;
+    color: #21243D;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+.child_div2 a{
+    background-color: #142850;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 16px;
+    color: #FFFFFF;
+    margin: 2px;
+}
+.child_div2 h6{
+    color:#8695A4 ;
+    display: inline-block;
+    font-size:20px ;
+    padding-left: 30px;
+    margin: 30px;
+}
+.child_div2 p{
+    font-size: 16px;
+    width: 594px;
+    font-weight: 400;
+    color: #21243D;
+}
